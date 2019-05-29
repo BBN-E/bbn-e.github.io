@@ -3,6 +3,9 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
+
+
+
 <!-- Slider Start -->
 <section id="global-header">
   <div class="container">
@@ -10,18 +13,36 @@ permalink: /blog/
       <div class="col-md-12">
         <div class="block">
           <h1>Get the latest on what we're doing</h1>
-          <p>Catch up with us, anytime and anywhere</p>
+          <p>A list of recent publications.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
-{% for post in site.posts %}
-<div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
-</div>
-{% endfor %}
+
+
+<section id="intro">
+	<div class="container">
+		<div class="row">
+			<div class="block">
+				<div class="section-title">
+
+					<h3>2015</h3>
+					<li> O. Tilk and T. Alumäe, “LSTM for Punctuation
+						Restoration in Speech Transcripts,” Proceedings
+						of Interspeech, 683-687, September 2015. </li>
+					<h3>2014</h3>
+					<li>	J. Chen, Y. Wu, H. Cao, and P. Natarajan,
+						“Confusion Network-based Recurrent Neural
+						Network Language Modeling for Chinese
+						OCR Error Detection,” Proceedings of the 22nd
+						International Conference on Pattern Recognition
+						(ICPR), pp. 1266-1271, August 2014. </li>
+
+				</div>
+			</div>
+		</div><!-- .col-md-5 close -->
+	</div>
+	</div>
+</section>
+
