@@ -31,7 +31,7 @@ h2 {
 }
 h3 {
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 400;
 }
 p {
   font-size: 15px;
@@ -171,7 +171,7 @@ header .navbar-default .navbar-nav li a:hover {
   padding: 50px 0;
 }
 #intro .block p {
-  color: #7B7B7B;
+  color: #333;
   padding-top: 20px;
 }
 #intro .block img {
