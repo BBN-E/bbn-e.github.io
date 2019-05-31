@@ -85,21 +85,31 @@ header .navbar-default .navbar-nav {
   justify-content: space-between;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
-  font-size: 15px;
+  color: #666;
+  font-size: 18px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
+  transition: .2s ease;
 }
+@media (min-width: 992px){
+.col-md-offset-2{
+  margin: 0;
+}  
+}
+
 
 #logo{
-
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
 }
 .Raytheon{
-
+  color: #E61231;
 }
 .BBN{
-  
+  color: black;
 }
 /*---------------------------------------------
           Index Start
