@@ -81,14 +81,19 @@ header .navbar-default {
 }
 header .navbar-default .navbar-nav {
   display: flex;
-  padding-top: 10px;
   flex-direction: row;
   justify-content: space-between;
+}
+header .navbar-default .navbar-nav li{
+	height: 50px;
+    display: flex;
+    align-items: center;
 }
 header .navbar-default .navbar-nav li a {
   color: #333;
   font-size: 18px;
   font-weight: 700;
+  padding: 0;
 }
 header .navbar-default .navbar-nav li a:hover {
     color: #E61231;
@@ -101,25 +106,29 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 
-#logo{
-  display: flex;
-  cursor: default;
-  user-select: none; 
-  line-height: 34px;
-  flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+#company-name{
+    display: flex;
+    cursor: default;
+    user-select: none;
+    /* line-height: 34px; */
+    font-weight: 400;
+    height: 50px;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
 
 }
 .Raytheon{
-  color: #E61231;
+  /*color: #E61231;
   font-size: 33px;
-  font-weight: 900;
+  font-weight: 900;*/
 
 }
 .BBN{
-  color: black;
+  /*color: black;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 700;*/
 }
 /*---------------------------------------------
           Index Start

@@ -171,14 +171,17 @@ px      68    160    252    */
   p {
     font-size: 16px;
   }
-  #logo{
-    line-height: 30px;
+  #company-name{
+    /*line-height: 30px;*/
+	margin-top: 13px;
+	font-size: 18px;
+    font-weight: 500;
   }
     .Raytheon{
-    font-size: 29px;
+    /*font-size: 29px;*/
   }
   .BBN{
-    font-size: 20px;
+    /*font-size: 20px;*/
   }
   .section-title{
     padding: 0 15px;
