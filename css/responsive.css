@@ -180,7 +180,7 @@ px      68    160    252    */
   .BBN{
     font-size: 20px;
   }
- .container h1,.container h2 ,.container h3,.container  h4,.container p{
+  .section-title{
     padding: 0 15px;
  }
 
