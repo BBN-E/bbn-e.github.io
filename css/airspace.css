@@ -7,7 +7,7 @@
  */
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700,900&display=swap');
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
 /* var text-decoration */
 /*--
@@ -65,7 +65,7 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 header .navbar {
   margin-bottom: 0px;
@@ -87,6 +87,7 @@ header .navbar-default .navbar-nav {
 header .navbar-default .navbar-nav li a {
   color: #333;
   font-size: 18px;
+  font-weight: 700;
 }
 font header .navbar-default .navbar-nav li a:hover {
     color: #E61231;
@@ -100,19 +101,22 @@ font header .navbar-default .navbar-nav li a:hover {
 
 
 #logo{
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    line-height: 34px;
+  display: flex;
+  cursor: default;
+  line-height: 34px;
+  flex-direction: column;
+
 }
 .Raytheon{
   color: #E61231;
   font-size: 30px;
+  font-weight: 900;
 
 }
 .BBN{
   color: black;
   font-size: 23px;
+  font-weight: 700;
 }
 /*---------------------------------------------
           Index Start
