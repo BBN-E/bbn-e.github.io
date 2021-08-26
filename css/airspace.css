@@ -47,7 +47,7 @@ a:active,
 a:focus,
 a:active {
   text-decoration: none !important;
-  font-size: 18px;
+  font-size: 12px;
 }
 .section-title {
   margin-bottom: 70px;
